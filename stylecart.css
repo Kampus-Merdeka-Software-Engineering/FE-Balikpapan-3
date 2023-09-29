@@ -128,7 +128,8 @@ td img{
 }
 .total-price{
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
 }
 .total-price table{
     border-top: 3px solid #3db992;
@@ -140,6 +141,14 @@ td:last-child{
 }
 th:last-child{
     text-align: right;
+}
+
+.checkout-btn{
+    display: inline-block;
+    background-color: #3DB992;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 
