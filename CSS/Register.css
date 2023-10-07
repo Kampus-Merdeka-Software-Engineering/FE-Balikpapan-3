@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.navbar-Brand{
+    height: 50px;
+    padding-top: 8px;
+    background-color: #3DB992;
+    color: white;
+    font-family: poppins;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text{
+    padding:5px;
+    color:#3DB992;
+    font-family: poppins;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tags-line{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.Regis-text{
+    padding-top: 5px;
+    padding-right: 215px;
+    justify-content: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 25px;
+    color:#3DB992;
+    display: flex;
+}
+
+.register-paraf{
+    padding-top: 1px;
+    padding-right:25px;
+    margin-right: 30px;
+    color: #3DB992;
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 15px;
+}
+
+.Login{
+    text-decoration: none;
+    color: #3DB992;
+    font-weight: bold;
+}
+.regis:hover{
+    color: black;
+}
+
+.colum-username{
+    padding-top: 5px;
+    display: grid;
+    justify-content: center;
+   
+    
+}
+.Name-text{
+    color: #3DB992;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.username-control-colum{
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+
+.colum-from{
+    margin: auto;
+    padding-top: 5px;
+    display: grid;
+    justify-content: center;
+   
+    
+}
+.email-text{
+    color: #3DB992;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.email-control-colum{
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.from-password{
+    margin: auto;
+    padding-top: 5px;
+    display: grid;
+    justify-content: center;
+    color: #3DB992;
+    
+}
+
+.password-text{
+    color: #3DB992;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password-control-label{
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+
+
+.form-check{
+    margin: auto;
+    width:300px;
+    height:40px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: #3DB992;
+
+}
+
+
+.btn-success{
+    width:140px;
+    height:40px;
+    margin:0 auto;
+    font-family: poppins;
+    font-size: 15px;
+    background-color: #3DB992;
+    color: white;
+    display:block;
+    border-radius: 15px;
+}
