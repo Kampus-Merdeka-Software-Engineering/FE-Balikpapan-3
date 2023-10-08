@@ -9,5 +9,15 @@
     });
   
     // You can add more JavaScript code for other interactions as needed
-  
-  });
+
+    const jsonFile = "./details.json";
+
+    fetch(jsonFile).then(response=>{
+      return response.json();
+    }).then(data =>{
+      data.map(product => {
+        const {name, image, deskripsi, price} = product;
+        console.log(product)
+        })
+      })
+    })
