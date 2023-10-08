@@ -109,7 +109,7 @@ header .shopping span {
 .listCard li {
   display: grid;
   grid-template-columns: 100px repeat(3, 1fr);
-  color: black;
+  color: #fff;
   row-gap: 10px;
   margin-bottom: 20px;
 }
