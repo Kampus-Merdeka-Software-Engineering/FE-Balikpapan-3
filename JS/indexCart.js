@@ -1,3 +1,5 @@
+const productCart = document.querySelector(".container")
+
 let openShopping = document.querySelector(".shopping");
 let closeShopping = document.querySelector(".closeShopping");
 let list = document.querySelector(".list");
@@ -128,7 +130,7 @@ function initApp() {
     let newDiv = document.createElement("div");
     newDiv.classList.add("item");
     newDiv.innerHTML = `
-      <img src="img/${value.img}"/>
+      <img src="img/menu/${value.image}"/>
       <div class="title">${value.name}</div>
       <div class="price">${value.price.toLocaleString()}</div>
       <button onclick="addToCard(${key})">Add To Card</button>
@@ -155,13 +157,13 @@ function reloadCard() {
     if (value != null) {
       let newDiv = document.createElement("li");
       newDiv.innerHTML = `
-        <div><img src="image/${value.image}"/></div>
+        <div><img src="img/menu/${value.image}"/></div>
         <div>${value.name}</div>
         <div>${value.price.toLocaleString()}</div>
         <div>
           <button onclick="changeQuantity(${key}, ${
         value.quantity - 1
-      })">-</button>
+      })">-</button>s
           <div class="count">${value.quantity}</div>
           <button onclick="changeQuantity(${key}, ${
         value.quantity + 1
@@ -183,3 +185,15 @@ function changeQuantity(key, quantity) {
   }
   reloadCard();
 }
+
+
+const jsonFile = "./product.json";
+
+fetch(jsonFile).then(response=>{
+  return response.json();
+}).then(data =>{
+  data.map(product => {
+    const {id, name, image, price} = product;
+    console.log(product)
+    })
+})
