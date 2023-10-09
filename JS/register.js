@@ -33,7 +33,7 @@ function validateForm() {
 
     // Jika semua validasi berhasil, Anda dapat melanjutkan dengan proses registrasi
     //pindah ke halaman selanjutnya
-    window.location.href= "index.html";
+    window.location.href= "indexLogin.html";
 }
 
 
