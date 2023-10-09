@@ -187,7 +187,7 @@ function changeQuantity(key, quantity) {
 }
 
 
-const jsonFile = "https://be-balikpapan-3-production.up.railway.app/api/user";
+const jsonFile = "https://be-balikpapan-3-production.up.railway.app/api/cart";
 
 fetch(jsonFile).then(response=>{
   return response.json();
