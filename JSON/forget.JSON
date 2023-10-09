@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "email": "salsa.bila@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"dimas.revou@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"sovia.revou@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"diah.revou@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"danag.revou@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"adfie.revou@gmail.com",
+            "request_date": "2023-10-09"
+        },
+        {
+            "email":"faisol.revou@gmail.com",
+            "request_date": "2023-10-09"
+        }
+        
+    ]
+}

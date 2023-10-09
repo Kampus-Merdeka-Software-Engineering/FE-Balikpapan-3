@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "username": "salsa_revou",
+            "email": "salsa.bila@gmail.com",
+            "password": "password123"
+        },
+        {
+            "username": "dimas_revou",
+            "email":"dimas.revou@gmail.com",
+            "password": "dimas123"
+        },
+        {
+            "username": "sovia_revou",
+            "email":"sovia.revou@gmail.com",
+            "password": "sovia123"
+        },
+        {
+            "username": "diah_revou",
+            "email":"diah.revou@gmail.com",
+            "password": "diah123"
+        },
+        {
+            "username": "danang_revou",
+            "email":"danag.revou@gmail.com",
+            "password": "danang123"
+        },
+        {
+            "username": "adfie_revou",
+            "email":"adfie.revou@gmail.com",
+            "password": "adfie123"
+        },
+        {
+            "username": "faisol_revou",
+            "email":"faisol.revou@gmail.com",
+            "password": "faisol123"
+        }
+        
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "email": "salsa.bila@gmail.com",
+            "password": "password123"
+        },
+        {
+            "email":"dimas.revou@gmail.com",
+            "password": "dimas123"
+        },
+        {
+            "email":"sovia.revou@gmail.com",
+            "password": "sovia123"
+        },
+        {
+            "email":"diah.revou@gmail.com",
+            "password": "diah123"
+        },
+        {
+            "email":"danag.revou@gmail.com",
+            "password": "danang123"
+        },
+        {
+            "email":"adfie.revou@gmail.com",
+            "password": "adfie123"
+        },
+        {
+            "email":"faisol.revou@gmail.com",
+            "password": "faisol123"
+        }
+        
+    ]
+}
