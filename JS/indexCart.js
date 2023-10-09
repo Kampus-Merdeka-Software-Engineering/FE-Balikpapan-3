@@ -163,7 +163,7 @@ function reloadCard() {
         <div>
           <button onclick="changeQuantity(${key}, ${
         value.quantity - 1
-      })">-</button>s
+      })">-</button>
           <div class="count">${value.quantity}</div>
           <button onclick="changeQuantity(${key}, ${
         value.quantity + 1
