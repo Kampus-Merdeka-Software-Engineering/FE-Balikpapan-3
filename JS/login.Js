@@ -34,5 +34,27 @@ document.querySelector("button.btn-success").addEventListener("click", function(
         event.preventDefault(); // Prevent form submission if validation fails
     }
 
+ fetch('https://be-balikpapan-3-production.up.railway.app/api/user', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(loginData)
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    // Step 2: Fetch JSON data after successful login
+    return response.json();
+  })
+  .then(data => {
+    // Handle the JSON data received from the server
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('There was a problem with the fetch operation:', error);
+  });
+
 
 });
