@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+
+.navbar-brand{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    background-color: #3DB992;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text{
+    padding-top: 20px;
+    color:#3DB992;
+    font-family: poppins;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tags-line{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.forget-text{
+    padding-top: 10px;
+    padding-right: 165px;
+    justify-content: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 20px;
+    color:#3DB992;
+    display: flex;
+}
+
+.forget-paraf{
+    padding-top: 5px;
+    margin-right: 70px;
+    color: #3DB992;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.login-klik{
+    padding-top: 10px;
+    margin-right:225px;
+    color: #3DB992;
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.Login{
+    text-decoration: none;
+    color: #3DB992;
+    font-weight: bold;
+}
+
+.Login:hover{
+    color:black ;
+}
+
+.colum-from{
+    padding: 15px;
+    padding-right:25x;
+    display: grid;
+    justify-content: center;
+   
+    
+}
+.email-text{
+    padding: 5px;
+    color: #3DB992;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.email-control-colum{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+.btn-success{
+    width:140px;
+    height:40px;
+    margin:0 auto;
+    font-family: poppins;
+    font-size: 15px;
+    background-color: #3DB992;
+    color: white;
+    display:block;
+    border-radius: 15px;
+}
+
+    
+
