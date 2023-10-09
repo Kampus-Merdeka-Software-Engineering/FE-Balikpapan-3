@@ -1,0 +1,112 @@
+[
+    {
+      "name": "Sambal Nagih - Cakalang",
+      "image": "https://drive.google.com/file/d/1BdjfJbxby6LovCHmqp-looZkwKUqMibr/view?usp=drive_link",
+      "price": 37000,
+      "deskripsi" : "Varian baru dari Sambal Nagih! Cakalang Fufu Suwir Asap potongan daging ikan cakalang yang besar-besar dan dijamin TIDAK BAU AMIS! Berat bersih 150 gram (Toples)"
+    },
+    {
+      "name": "Cuanki Kriboow",
+      "image": "https://drive.google.com/file/d/1q2pMwrIqrLkIWhDToJQ8Pl037GW8bYSM/view?usp=drive_link",
+      "price": 14500,
+      "deskripsi" : "Kenapa Nagih? Cuanki Kriboow diproduksi oleh Selera Martini yang puas nikmatnya kuahnya yang ngaldu banget bikin makin juara. Isiannya lengkap dengan cabe yang super pedes nampolll"
+    },
+    {
+      "name": "Cireng Gochujang",
+      "image": "https://drive.google.com/file/d/14yg-2fWo26i8N5DPcUx5hsWKbeEMu8-1/view?usp=drive_link",
+      "price": 17400,
+      "deskripsi" : "Sebuah produk kolaborasi bersama yaitu menghadirkan produk dengan memadukan saus Gochjang khas Korea dengan Cireng khas Jawa Barat menjadi rasa yang sulit diungkapkan dengan kata-kata. Yang tentunya sudah terjamin dan halal yaa."
+    },
+    {
+      "name": "Baso Goreng Marenta",
+      "image": "https://drive.google.com/file/d/1f7R3INDrVgP2kGUAbxMfId1oIARlk3gI/view?usp=drive_link",
+      "price": 16500,
+      "deskripsi" : "Basreng atau Bakso Goreng adalah makanan ringan khas Sunda yang terbuat dari bakso ikan yang diiris kemudian digoreng dan disajikan dengan taburan bumbu pedas dan gurih."
+
+    },
+    {
+      "name": "Baso Aci Tulangrangu",
+      "image": "https://drive.google.com/file/d/173UGgWQbe8fel1YvFVgzgEjSI1kSW5zE/view?usp=drive_link",
+      "price": 15900,
+      "deskripsi" : "Bakso aci tulang rangu merupakan makanan tradisional yang terbuat dari tepung tapioka atau aci, kuah bakso aci yang khas adalah rempah indonesia dipadu dengan topping dan mienya bikin gak mau berhenti ngunyah. "
+    },
+    {
+      "name": "Rabbokki by Kylafood",
+      "image": "https://drive.google.com/file/d/1QZocD25cGxASjMUJn8IsTLxFPDtr3DFS/view?usp=drive_link",
+      "price": 21600,
+      "deskripsi" : "Rabokki adalah perpaduan Ramen dan Teokboki khas korea dicampur dengan kuah pedas yang menggugah selera. Citra rasa yang pastinya memanjakan lidah ketika menikmati kybooki."
+    },
+    {
+      "name": "Abon Ikan Makku",
+      "image": "https://drive.google.com/file/d/1_CqhKaA6NKqf4xBkcvvuDCOU4vvQAjaJ/view?usp=drive_link",
+      "price": 32000,
+      "deskripsi" : " Abon Ikan Makku merupakan produk unggulan UMKM Jatim yang pasti halal, praktis dan lezat tentunya. Tanpa bahan pengawet dan tidak amis karena diolah dengan teknik yang tepat. Berat bersih 100 gram"
+    },
+    {
+      "name": "Zanana Chips",
+      "image": "https://drive.google.com/file/d/1IMh5chQkB7qSMRmkCR7oTdVl7Isaaeyb/view?usp=drive_link",
+      "price": 15400,
+      "deskripsi" : " Zanana Chips adalah keripik pisang kekinian asal Bandung yang disukai hingga berbagai negara. Kemasan menggunakan material metalized yang dicetak dengan mesin tanpa tersentuh tangan (steril dan higenis)"
+    },
+    {
+      "name": "Batagor Chips",
+      "image": "https://drive.google.com/file/d/1IDDWAdYdfjOeraaqkIwFonlc29sd5r27/view?usp=drive_link",
+      "price": 17500,
+      "deskripsi" : " Batagor Chips Be'Chips adalah snack khas Bandung yang dibuat dengan bahan baku segar mulai dari ikan, terigu, cabai, rempah dan minyak goreng sehingga memiliki aroma dan rasa yang memikat!!"
+    },
+    {
+      "name": "Kaula Keripik Cireng",
+      "image": "https://drive.google.com/file/d/1IAgDif4pyVsEnkpSwQ531YrUwokycCOy/view?usp=drive_link",
+      "price": 14300,
+      "deskripsi" : "Kaula Snack-Keripik Cireng(Tapioca Chips). Berat Bersih 80 gram, dibuat tanpa pengawet dan MSG, tekstur yang super crunchy dan 100% Addictive Snack."
+    },
+    {
+      "name": "Ciomy Cuanki",
+      "image": "https://drive.google.com/file/d/1CYaAvAtOviCJylRQ1t_k3N7Srzc9MuHB/view?usp=drive_link",
+      "price": 14999,
+      "deskripsi" : " Cuanki Ciomy dengan kemasan ekonomis (65 gram), Cuanki  Chicken Lite Chesee Rasa Kuah Keju. Detail isian : cuanki tahu, soun, D'tela, bumbu probiotik, bubuk cabai, bumbu chesee."
+    },
+    {
+      "name": "Seblak Coet Marenta",
+      "image": "https://drive.google.com/file/d/1MyBVCjJXUcnk2G9sQmtx5B2xOb7SSllg/view?usp=drive_link",
+      "price": 12500,
+      "deskripsi" : " Marenta Seblak Pedes Instant Bandung, Produk yang sudah dilakukan riset panjang dan uji coba sehingga didapatkan rasa yang enak dan konsisten. Seblak coet yang praktis dan simpel  yuk cobain JANGAN SAMPAI KEHABISAN !!"
+    },
+    {
+      
+      "name": "Seonju/Minuman Soju",
+      "image": "https://drive.google.com/file/d/1AnEnrzo2eR25WGbzThrS_WzjnH3x8XrZ/view?usp=drive_link",
+      "price": 31900,
+      "deskripsi" : "Marenta X Korearea Seonju/Soju Minuman Korea Halal 100% (250ml). Cocok bangrt buat nemenin kalian nonton drakor sambil ngemil rabokki."
+    },
+    {
+      "name": "Makro Nich Marenta",
+      "image": "https://drive.google.com/file/d/1DCv2LP-rrpA4kVEY-y9N6w2FFYP3CwyC/view?usp=drive_link",
+      "price": 19000,
+      "deskripsi" : "Makronich adalah makaroni dengan ukuran besar produknya, bisa untuk dimakan ramai-ramai. Cocok banget buat stock dirumah buat nyemil. Berat Produk : 200gr"
+    },
+    {
+      "name": "Astro Goods - Crispy Brownies",
+      "image": "https://drive.google.com/file/d/1HZ7ECqJkxoW-Bk3EYsqssaDDmtpGeA29/view?usp=drive_link",
+      "price": 14800,
+      "deskripsi" : "Brownies kering coklat dengan topping chocolate chips, parutan keju, dan kacang tanah berlimpah terbuat dari bahan pilihan, premium, dan diproses secara higienis untuk kematangan, kerenyahan yang pas."
+    },
+    {
+      "name": "Fanta Soda Drink",
+      "image": "https://drive.google.com/file/d/1rIk05hbYsD1aGES1GVRNDxTPNMFxKJQk/view?usp=drive_link",
+      "price": 45000,
+      "deskripsi" : "Fanta soda drink Bundling 3 yang merupakan minuman ringan bersoda dengan rasa buah yang menyegarkan, dengan kemasan yang terbuat dari kaleng sehingga terjaga kualitasnya."
+    },
+    {
+      "name": "Mujigae Jajangmyeon",
+      "image": "https://drive.google.com/file/d/1k79Of9mnUFJTkNsRHKADD2gGFDoZobq-/view?usp=drive_link",
+      "price": 20400,
+      "deskripsi" : "Mujigae Jajangmyeon Mie Saus Kedelai Hitam khas Korea Mini (265 gr). Jajangmyron by mujigae memiliki tekstur mie yang kenyal dilengkapi saus Chunjang, potongan daging ayam asli."
+    },
+    {
+      "name": "Mujigae Banana Milk",
+      "image": "https://drive.google.com/file/d/1hHOGrpwrYp7BudVk1iV5D7s1JDKajuFW/view?usp=drive_link",
+      "price": 10200,
+      "deskripsi" : "Mujigae Banana Milk Original 250 ml/ Susu Pisang Korea/ Minuman Korea Halal, Tanpa Bahan pengawet."
+    }
+]
