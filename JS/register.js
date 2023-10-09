@@ -1,3 +1,5 @@
+const API_URL = "https://be-balikpapan-3-production.up.railway.app";
+
 // Function to validate the registration form
 function validateForm() {
     var username = document.getElementById("InputUsername").value;
@@ -42,25 +44,38 @@ registerButton.addEventListener("click", function (event) {
         event.preventDefault(); // Mencegah pengiriman formulir jika validasi gagal
     }
 
-     fetch('https://be-balikpapan-3-production.up.railway.app/api/user', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(registrasi)
-  })
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    // Step 2: Fetch JSON data after successful login
-    return response.json();
-  })
-  .then(data => {
-    // Handle the JSON data received from the server
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });
+
+    const userData = {
+        name: username,
+        email: email,
+        password: password,
+    };
+
+
+    fetch(`${API_URL}/auth/daftar`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData),
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.json(); // Parse the response JSON
+        } else {
+            throw new Error('Registration failed');
+        }
+    })
+    .then(data => {        
+        Swal.fire({
+            icon: 'success',
+            title: 'Good Job!',
+            text: 'Account have been created!',
+        }).then(() => {
+            window.location.href = './index.html';
+        });
+    })
+    .catch(error => {
+        console.error('Registration failed', error);
+    });
 });
