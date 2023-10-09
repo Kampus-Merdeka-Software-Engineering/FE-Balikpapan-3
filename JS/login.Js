@@ -1,3 +1,5 @@
+const API_URL = "https://be-balikpapan-3-production.up.railway.app";
+
 function validateForm() {
     var email = document.getElementById("masukkanEmail").value;
     var password = document.getElementById("masukkanPassword").value;
@@ -23,7 +25,7 @@ function validateForm() {
 
     // Jika semua validasi berhasil, Anda dapat melanjutkan dengan login
     //pindah ke halaman selanjutnya
-    window.location.href= "halaman-utama.html";
+    window.location.href= "index.html";
 }
 
 
@@ -34,27 +36,48 @@ document.querySelector("button.btn-success").addEventListener("click", function(
         event.preventDefault(); // Prevent form submission if validation fails
     }
 
- fetch('https://be-balikpapan-3-production.up.railway.app/api/user', {
+
+   // Step 1: Send a POST request with login credentials
+const loginData = {
+    username: 'your_username',
+    password: 'your_password'
+  };
+
+   
+  const userData = {
+    email: email,
+    password: password,
+};
+
+  fetch(`${API_URL}/auth/masuk`, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
     },
-    body: JSON.stringify(loginData)
-  })
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
+    body: JSON.stringify(userData),
+})
+.then(response => {
+    if (response.ok) {
+        return response.json(); // Parse the response JSON
+    } else {
+        throw new Error('Registration failed');
     }
-    // Step 2: Fetch JSON data after successful login
-    return response.json();
-  })
-  .then(data => {
-    // Handle the JSON data received from the server
+})
+.then(data => {
     console.log(data);
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });
+    localStorage.setItem('email', data.data.email);
+    localStorage.setItem('id', data.data.id);
 
-
+    Swal.fire({
+        icon: 'success',
+        title: 'Good Job!',
+        text: 'Berhasil Login!',
+    })
+    .then(() => {
+        window.location.href = '../';
+    });
+})
+.catch(error => {
+    console.error('Registration failed', error);
+});
 });
