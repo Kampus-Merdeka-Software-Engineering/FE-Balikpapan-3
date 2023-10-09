@@ -82,6 +82,7 @@ html {
   display: none;
 }
 
+/*details section*/
 .container {
   padding-left: 100px;
   width: 1100px;
@@ -168,7 +169,9 @@ footer {
   justify-content: space-between;
   z-index: 1000;
 }
+/*details section end*/
 
+/*Footer section*/
 .footer {
   position: fixed;
   padding: 6rem;
@@ -295,3 +298,4 @@ footer .container .contact h9 {
   font-weight: 800;
   flex: 1 1 25rem;
 }
+/*Footer section end*/
