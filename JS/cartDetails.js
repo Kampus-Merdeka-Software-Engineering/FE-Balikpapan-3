@@ -10,7 +10,7 @@
   
     // You can add more JavaScript code for other interactions as needed
 
-    const jsonFile = "./details.json";
+    const jsonFile = "https://be-balikpapan-3-production.up.railway.app/api/shop";
 
     fetch(jsonFile).then(response=>{
       return response.json();
